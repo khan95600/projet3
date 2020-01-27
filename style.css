@@ -1,0 +1,130 @@
+.page {
+	display: flex;
+	flex-direction: column;
+}
+.description {
+	display: flex;
+	flex-direction: column;
+	border: solid 2px black;
+	margin-bottom: 30px;
+}
+#tableau {
+	border: black 2px solid;
+	border-radius: 15px;
+	width: 95%;
+	margin-left: 1.2em;
+	margin-top: 10px;
+}
+h1 {
+	margin: auto;
+}
+.illustration {
+	display: flex;
+	width: 99%;
+	
+}
+hr {
+	width: 65%;
+}
+.ill{
+	width: 20%;
+	height: 450px;
+	margin: auto;
+}
+.like {
+	border: solid black 1px;
+	width: 50px;
+}
+
+table {
+	border: solid black 1px;
+	width: 65%;
+	margin: auto;
+	display: flex;
+}
+td {
+	border: solid black 1px;
+	max-height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.logo1, .logo2, .logo3, .logo4{
+	display: flex;
+	width: 350px;
+	height: 150px;
+	flex-direction: row;
+	margin: auto;
+	margin-top: 40px;
+}
+h3 {
+width: 100%;
+height: 25px;
+}
+input {
+	border-radius: 20px;
+	display: flex;
+
+}
+a {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-right: 5px;
+}
+.logo {
+	width: 150px;
+	height: 200px;
+}
+
+.champs, #username, #pass {
+	width: 100%;
+	border-radius: 0;
+	bordder: solid black 2px;
+}
+header {
+	border-bottom: solid 2px black;
+	display: flex;
+	flex-direction: column;
+}
+.headuser {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-size: 1.5em;
+	align-items: flex-end;
+}
+
+.headerbtn {
+	width: 100%;
+	height: 40%;
+	margin: 12px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+
+}
+.commentaires {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	width: 100%;
+	height: 100%;
+	border: solid 2px black;
+
+}
+li {
+	list-style-type: none;
+}
+
+@media(min-width: 768px)and(max-width: 1388px) {
+	header{
+		max-width: 768px;
+	}
+	.presentation {
+		max-width: 768px
+	}
+	.ill {
+		max-height: 300px;
+		min-width: 20%;
+	}
